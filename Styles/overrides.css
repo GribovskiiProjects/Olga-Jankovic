@@ -32,8 +32,9 @@
     line-height: 150%;
 }
 .description-text #bio-link {
-  color: #fff;
+  color: #96adf8;
   text-align: center;
+  border-bottom: 2px solid #96adf8; 
 }
 @media (min-width: 992px) {
   .description-text {
