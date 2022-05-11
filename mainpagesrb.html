@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Styles/overrides.css">
+    <link rel="stylesheet" href="/Styles/overrides.css" />
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
     <link href = "https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,100; 0,200; 0,300; 0,400; 0,500; 1,100 & display = swap "rel =" stylesheet ">
     <title>Olga Jankovic</title>
@@ -18,14 +18,14 @@
   </head>
   <body>
     <div class="header-image ">
-      <nav class="navbar-language navbar-expand-lg navbar-dark">
+    <nav class="navbar-language navbar-expand-lg navbar-dark">
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav">
             <li class="nav-item-left active">
               <a class="nav-link" href="#">srb <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item-left">
-              <a class="nav-link" href="/index.html">eng</a>
+              <a class="nav-link" href="index.html">eng</a>
             </li>
             <li class="nav-item-left">
               <a class="nav-link" href="/mainpageru.html">ru</a>
@@ -50,9 +50,7 @@
         </div>
       </nav>
       <div>
-      </div>
-      <div>
-        <div class="block btn-block">
+        <div class="block btn-block mt-xs-0">
           <div class="py-4 text-center">
             <a href="mailto: olga.jankovic.composer@gmail.com" class="envelope">
               <img src="/Images/email1.svg" alt="Olga-Jankovic">
@@ -65,245 +63,249 @@
           </div>
           <h6 id="bio" class="hidden" style="color:white;">
             O.Janković je rođena u Rusiji, u sibirskom gradiću Bodajbo. Olga se puno selila sa porodicom, sve od Sibira pa do Srbije.
-           Nižu muzičku je završila u Irkutsku, gimnaziju - u Moskvi, srednju muzičku - u Podgorici (Crna Gora) i fakultet u Beogradu.
-           2020. godine je diplomirala na Fakultetu Muzičke Umetnosti (FMU) u Beogradu, na odseku za kompoziciju u klasi Dr.Prof. Svetlane Savić. 
-           Olgina dela su izvođena širom Srbije i Inostranstva (SAD, Kanada, Rusija), učestvovala je na različitim festivalima 
-           ("KoMA", "FESTUM", "Kalemegdanski sutoni") i radionicama ("Red Note International Music Workshop and Festival", SAD, IL).
-           Takođe se kompozitorka bavi elektronskom muzikom, primenjenom muzikom (TV-drama "Proleće u Kanuaru" u saradnji sa RTS-om)
-           i multumedija (i sl.)  projektima ("Penthaus: Običan Čovek"). 
+            Nižu muzičku je završila u Irkutsku, gimnaziju - u Moskvi, srednju muzičku - u Podgorici (Crna Gora) i fakultet u Beogradu.
+            2020. godine je diplomirala na Fakultetu Muzičke Umetnosti (FMU) u Beogradu, na odseku za kompoziciju u klasi Dr.Prof. Svetlane Savić. 
+            Olgina dela su izvođena širom Srbije i Inostranstva (SAD, Kanada, Rusija), učestvovala je na različitim festivalima 
+            ("KoMA", "FESTUM", "Kalemegdanski sutoni") i radionicama ("Red Note International Music Workshop and Festival", SAD, IL).
+            Takođe se kompozitorka bavi elektronskom muzikom, primenjenom muzikom (TV-drama "Proleće u Kanuaru" u saradnji sa RTS-om)
+            i multumedija (i sl.)  projektima ("Penthaus: Običan Čovek"). 
           </h6>
         </div>
       </div>
      </div>
-     <div class="tab">
-      <button class="tablink1" onclick="openCity(event, 'Contemporary')">Contemporary</button>
-      <button class="tablink2" onclick="openCity(event, 'Cinematic')">Cinematic</button>
+    <div id="works"></div>
+    <div class="tab">
+      <a class="tablink active" tab="contemporary">Contemporary</a>
+      <a class="tablink" tab="cinematic">Cinematic</a>
     </div>
-    <div id="Contemporary" class="tabcontent">
-      <div class="content-section px-3 px-md-5">
-        <div id="works" class="row">
-          <div class="col-md-4 col-12 mb-4 mb-md-0">
-            <div class="card hoverable-card py-4" href="">
-              <div class="card-body text-center flex-card">
-                <div class="flex-content">
-                  <h4 class="card-title">Le couple</h4>
-                  <img src="/Images/Le-couple.jpg" class="card-img-top" alt="Olga-Jankovic">
-                  <audio class="audio-control" style="margin-top: 2em;" controls>
-                    <source src="/Musik/couple.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                  <p class="card-description">"Par"- kompozicija za muzičko-scensku predstavu "Penthaus: Običan Čovek", za klavirski trio i sopran,  2018 god</p>
-                </div>
-                <div>
-                  <a class="btn btn-dark" style="margin-top: 1em;"  href="/Le-couple.html" target="_blank">Pogledaj partituru</a>
-                </div>
-              </div>
-            </div>          
-          </div>
-          <div class="col-md-4 col-12 mb-4 mb-md-0">
-            <div class="card hoverable-card py-4" href="">
-              <div class="card-body text-center flex-card">
-                <div class="flex-content">
-                  <h4 class="card-title">Krosna</h4>
-                  <img src="/Images/Krosna.jpg" class="card-img-top" alt="Olga-Jankovic">
-                  <audio class="audio-control" style="margin-top: 2em;" controls>
-                    <source src="/Musik/krosna.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                  <p class="card-description">Krosna (rus., belorus. - "razboj") za kamerni sastav . 2020. god. (elektronska realizacija)</p>
-                </div>
-                <div>
-                  <a class="btn btn-dark" style="margin-top: 1em;"  href="/Krosna.html" target="_blank">Pogledaj partituru</a>
-                </div>
-              </div>
-            </div>          
-          </div>
-          <div class="col-md-4 col-12 mb-4 mb-md-0">
-            <div class="card hoverable-card py-4" href="">
-              <div class="card-body text-center flex-card">
-                <div class="flex-content">
-                  <h4 class="card-title">Weightlessness</h4>
-                  <img src="/Images/nevesomost.jpg" class="card-img-top" alt="Olga-Jankovic">
-                  <audio class="audio-control" style="margin-top: 2em;" controls>
-                    <source src="/Musik/weightlessness.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                  <p class="card-description">"Bestežinsko stanje" - kompozicija za klavirski trio, 2018 god</p>
-                </div>
-                <div>
-                  <a class="btn btn-dark" style="margin-top: 1em;"  href="/Weightlessness.html" target="_blank">Pogledaj partituru</a>
-                </div>
-              </div>
-            </div>          
-          </div><div class="col-md-4 col-12 mb-4 mb-md-0">
-            <div class="card hoverable-card py-4" href="">
-              <div class="card-body text-center flex-card">
-                <div class="flex-content">
-                  <h4 class="card-title">Motus animi continuus</h4>
-                  <img src="/Images/Motus-Animi.jpeg" class="card-img-top" alt="Olga-Jankovic">
-                  <audio class="audio-control" style="margin-top: 2em;" controls>
-                    <source src="/Musik/motus.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                  <p class="card-description">Varijacije za dva klavira i udaraljke, 2019 god</p>
-                </div>
-                <div>
-                  <a class="btn btn-dark" style="margin-top: 1em;"  href="/motus-animi-continuus.html" target="_blank">Pogledaj partituru</a>
-                </div>
-              </div>
-            </div>          
-          </div><div class="col-md-4 col-12 mb-4 mb-md-0">
-            <div class="card hoverable-card py-4" href="">
-              <div class="card-body text-center flex-card">
-                <div class="flex-content">
-                  <h4 class="card-title">AMA</h4>
-                  <img src="/Images/AMA2.jpg" class="card-img-top" alt="Olga-Jankovic">
-                  <audio class="audio-control" style="margin-top: 2em;" controls>
-                    <source src="/Musik/ama.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                  <p class="card-description">Kompozicija za solo klavir, inspirisana istoimenim filmom Juliet Gautier, 2018 god</p>
-                </div>
-                <div>
-                  <a class="btn btn-dark" style="margin-top: 1em;"  href="/AMA.html" target="_blank">Pogledaj partituru</a>
-                </div>
-              </div>
-            </div>          
-          </div><div class="col-md-4 col-12 mb-4 mb-md-0">
-            <div class="card hoverable-card py-4" href="">
-              <div class="card-body text-center flex-card">
-                <div class="flex-content">
-                  <h4 class="card-title">Лѣсъ</h4>
-                  <img src="/Images/Les.jpg" class="card-img-top" alt="Olga-Jankovic">
-                  <audio class="audio-control" style="margin-top: 2em;" controls>
-                    <source src="/Musik/les.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                  <p class="card-description">"Šuma" - kompozicija za glas i elektroniku, 2019 god</p>
-                </div>
-                <div>
-                  <a class="btn btn-dark" style="margin-top: 1em;"  href="/Les.html" target="_blank">Pogledaj partituru</a>
-                </div>
-              </div>
-            </div>          
-          </div>
-        </div>
-      </div>  
-    </div>
-    <div id="Cinematic" class="tabcontent">
-      <div class="content-section px-3 px-md-5">
-        <div id="works" class="row">
-          <div class="col-md-6 col-12 mb-4 mb-md-0">
-            <div class="card hoverable-card-2 py-4" href="">
-              <div class="card-body text-center flex-card">
-                <div class="flex-content">
-                  <h4 class="card-title">Music for video games</h4>
-                  <img src="/Images/game_music.png" class="card-img-top" alt="Olga-Jankovic">
-                  <p class="music_name text-left">Candy crush</p>
-                  <audio class="audio-control" controls>
-                    <source src="/Musik/Crush.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                  <p class="music_name text-left">Become a hero</p>
-                  <audio class="audio-control" controls>
-                    <source src="/Musik/HERO.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                  <p class="music_name text-left">Atmosphere</p>
-                  <audio class="audio-control" controls>
-                    <source src="/Musik/Atmosphere.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                  <p class="music_name text-left">Beware</p>
-                  <audio class="audio-control" controls>
-                    <source src="/Musik/BEWARE.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                </div>
-              </div>
-            </div>          
-          </div>
-          <div class="col-md-6 col-12 mb-4 mb-md-0">
-            <div class="card hoverable-card-2 py-4" href="">
-              <div class="card-body text-center flex-card">
-                <div class="">
-                  <h4 class="card-title">Film music</h4>
-                  <img src="/Images/movie_music.png" class="card-img-top" alt="Olga-Jankovic">
-                  <p class="music_name text-left">Mrtva trka</p>
-                  <audio class="audio-control" controls>
-                    <source src="/Musik/MrtvaTrka.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                  <p class="music_name text-left">Proleće u januaru</p>
-                  <audio class="audio-control" controls>
-                    <source src="/Musik/Prolece-ending.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                  <p class="music_name text-left">Za Vasotu-Main theme</p>
-                  <audio class="audio-control" controls>
-                    <source src="/Musik/Za_Vasotu.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                  <p class="music_name text-left">Za Vasotu-Сar scene</p>
-                  <audio class="audio-control" controls>
-                    <source src="/Musik/Vasotu-2.mp3" type="audio/mpeg; codecs=vorbis">
-                  </audio>
-                </div>
-              </div>
-            </div>          
-          </div>
-        </div>
-    </div><div class="content-section px-3 px-md-5">
-      <div id="works" class="row">
-        <div class="col-md-6 col-12 mb-4 mb-md-0">
-          <div class="card hoverable-card-2 py-4" href="">
+    <div id="contemporary" class="tabcontent active">
+     <div class="content-section px-3 px-md-5">
+      <div class="row mb-4">
+        <div class="col-md-4 col-12 hoverable-card-container">
+          <div class="card hoverable-card py-4">
             <div class="card-body text-center flex-card">
               <div class="flex-content">
-                <h4 class="card-title">Music for theater</h4>
-                <img src="/Images/theater_misic.png" class="card-img-top" alt="Olga-Jankovic">
-                <p class="music_name text-left">Harms- Puškin i Gogolj - Intro</p>
-                <audio class="audio-control" controls>
-                  <source src="/Musik/UVODNAMUZIKA.mp3" type="audio/mpeg; codecs=vorbis">
+                <h4 class="card-title">Le couple</h4>
+                <img src="/Images/Le-couple.jpg" class="card-img-top" alt="Olga-Jankovic">
+                <audio class="audio-control" style="margin-top: 2em;" controls>
+                  <source src="/Musik/couple.mp3" type="audio/mpeg">
                 </audio>
-                <p class="music_name text-left">Harms- Puškin i Gogolj - Outro</p>
-                <audio class="audio-control" controls>
-                  <source src="/Musik/ODJAVNAMUZIKA.mp3" type="audio/mpeg; codecs=vorbis">
+                <p class="card-description">"Par"- kompozicija za muzičko-scensku predstavu "Penthaus: Običan Čovek", za klavirski trio i sopran,  2018 god</p>
+              </div>
+              <div>
+                <a class="btn btn-dark" style="margin-top: 1em;"  href="/Le-couple.html" target="_blank">Pogledaj partituru</a>
+              </div>
+            </div>
+          </div>          
+        </div>
+        <div class="col-md-4 col-12 hoverable-card-container">
+          <div class="card hoverable-card py-4">
+            <div class="card-body text-center flex-card">
+              <div class="flex-content">
+                <h4 class="card-title">Krosna</h4>
+                <img src="/Images/Krosna.jpg" class="card-img-top" alt="Olga-Jankovic">
+                <audio class="audio-control" style="margin-top: 2em;" controls>
+                  <source src="/Musik/krosna.mp3" type="audio/mpeg">
                 </audio>
-                <p class="music_name text-left">D-part</p>
-                <audio class="audio-control" controls>
-                  <source src="/Musik/D-FULL.mp3" type="audio/mpeg; codecs=vorbis">
+                <p class="card-description">Krosna (rus., belorus. - "razboj") za kamerni sastav . 2020. god. (elektronska realizacija)</p>
+              </div>
+              <div>
+                <a class="btn btn-dark" style="margin-top: 1em;"  href="/Krosna.html" target="_blank">Pogledaj partituru</a>
+              </div>
+            </div>
+          </div>          
+        </div>
+        <div class="col-md-4 col-12 hoverable-card-container">
+          <div class="card hoverable-card py-4">
+            <div class="card-body text-center flex-card">
+              <div class="flex-content">
+                <h4 class="card-title">Weightlessness</h4>
+                <img src="/Images/nevesomost.jpg" class="card-img-top" alt="Olga-Jankovic">
+                <audio class="audio-control" style="margin-top: 2em;" controls>
+                  <source src="/Musik/weightlessness.mp3" type="audio/mpeg">
                 </audio>
-                <p class="music_name text-left">H-part</p>
-                <audio class="audio-control" controls>
-                  <source src="/Musik/H-FULL.mp3" type="audio/mpeg; codecs=vorbis">
+                <p class="card-description">"Bestežinsko stanje" - kompozicija za klavirski trio, 2018 god</p>
+              </div>
+              <div>
+                <a class="btn btn-dark" style="margin-top: 1em;"  href="/Weightlessness.html" target="_blank">Pogledaj partituru</a>
+              </div>
+            </div>
+          </div>          
+        </div>
+        <div class="col-md-4 col-12 hoverable-card-container">
+          <div class="card hoverable-card py-4">
+            <div class="card-body text-center flex-card">
+              <div class="flex-content">
+                <h4 class="card-title">Motus animi continuus</h4>
+                <img src="/Images/Motus-Animi.jpeg" class="card-img-top" alt="Olga-Jankovic">
+                <audio class="audio-control" style="margin-top: 2em;" controls>
+                  <source src="/Musik/motus.mp3" type="audio/mpeg">
                 </audio>
-                <p class="music_name text-left">S-part</p>
+                <p class="card-description">Varijacije za dva klavira i udaraljke, 2019 god</p>
+              </div>
+              <div>
+                <a class="btn btn-dark" style="margin-top: 1em;"  href="/motus-animi-continuus.html" target="_blank">Pogledaj partituru</a>
+              </div>
+            </div>
+          </div>          
+        </div><div class="col-md-4 col-12 hoverable-card-container">
+          <div class="card hoverable-card py-4">
+            <div class="card-body text-center flex-card">
+              <div class="flex-content">
+                <h4 class="card-title">AMA</h4>
+                <img src="/Images/AMA2.jpg" class="card-img-top" alt="Olga-Jankovic">
+                <audio class="audio-control" style="margin-top: 2em;" controls>
+                  <source src="/Musik/ama.mp3" type="audio/mpeg">
+                </audio>
+                <p class="card-description">Kompozicija za solo klavir, inspirisana istoimenim filmom Juliet Gautier, 2018 god</p>
+              </div>
+              <div>
+                <a class="btn btn-dark" style="margin-top: 1em;"  href="/AMA.html" target="_blank">Pogledaj partituru</a>
+              </div>
+            </div>
+          </div>          
+        </div>
+        <div class="col-md-4 col-12 hoverable-card-container">
+          <div class="card hoverable-card py-4">
+            <div class="card-body text-center flex-card">
+              <div class="flex-content">
+                <h4 class="card-title">Лѣсъ</h4>
+                <img src="/Images/Les.jpg" class="card-img-top" alt="Olga-Jankovic">
+                <audio class="audio-control" style="margin-top: 2em;" controls>
+                  <source src="/Musik/les.mp3" type="audio/mpeg">
+                </audio>
+                <p class="card-description">"Šuma" - kompozicija za glas i elektroniku, 2019 god</p>
+              </div>
+              <div>
+                <a class="btn btn-dark" style="margin-top: 1em;"  href="/Les.html" target="_blank">Pogledaj partituru</a>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="cinematic" class="tabcontent">
+    <div class="content-section px-3 px-md-5">
+      <div class="row">
+        <div class="col-md-6 col-12 mb-4 mb-md-0">
+          <div class="card hoverable-card-2 py-4">
+            <div class="card-body text-center flex-card">
+              <div class="flex-content">
+                <h4 class="card-title">Music for video games</h4>
+                <img src="/Images/game_music.png" class="card-img-top" alt="Olga-Jankovic">
+                <p class="music_name text-left">Candy crush</p>
                 <audio class="audio-control" controls>
-                  <source src="/Musik/S-FULL.mp3" type="audio/mpeg; codecs=vorbis">
+                  <source src="/Musik/Crush.mp3" type="audio/mpeg">
+                </audio>
+                <p class="music_name text-left">Become a hero</p>
+                <audio class="audio-control" controls>
+                  <source src="/Musik/HERO.mp3" type="audio/mpeg">
+                </audio>
+                <p class="music_name text-left">Atmosphere</p>
+                <audio class="audio-control" controls>
+                  <source src="/Musik/Atmosphere.mp3" type="audio/mpeg">
+                </audio>
+                <p class="music_name text-left">Beware</p>
+                <audio class="audio-control" controls>
+                  <source src="/Musik/BEWARE.mp3" type="audio/mpeg">
                 </audio>
               </div>
             </div>
           </div>          
         </div>
         <div class="col-md-6 col-12 mb-4 mb-md-0">
-          <div class="card hoverable-card-2 py-4" href="">
+          <div class="card hoverable-card-2 py-4">
             <div class="card-body text-center flex-card">
               <div class="">
-                <h4 class="card-title">Music for video</h4>
-                <img src="/Images/video_misic.png" class="card-img-top" alt="Olga-Jankovic">
-                <p class="music_name text-left">Get exсited</p>
+                <h4 class="card-title">Film music</h4>
+                <img src="/Images/movie_music.png" class="card-img-top" alt="Olga-Jankovic">
+                <p class="music_name text-left">Mrtva trka</p>
                 <audio class="audio-control" controls>
-                  <source src="/Musik/GET-EXCITED.mp3" type="audio/mpeg; codecs=vorbis">
+                  <source src="/Musik/MrtvaTrka.mp3" type="audio/mpeg">
                 </audio>
-                <p class="music_name text-left">Guitar mind</p>
+                <p class="music_name text-left">Proleće u januaru</p>
                 <audio class="audio-control" controls>
-                  <source src="/Musik/Guitar-Mind.mp3" type="audio/mpeg; codecs=vorbis">
+                  <source src="/Musik/Prolece-ending.mp3" type="audio/mpeg">
                 </audio>
-                <p class="music_name text-left">Jazzzz</p>
+                <p class="music_name text-left">Za Vasotu-Main theme</p>
                 <audio class="audio-control" controls>
-                  <source src="/Musik/JAZZZZ.mp3" type="audio/mpeg; codecs=vorbis">
+                  <source src="/Musik/Za_Vasotu.mp3" type="audio/mpeg">
                 </audio>
-                <p class="music_name text-left">Pop</p>
+                <p class="music_name text-left">Za Vasotu-Сar scene</p>
                 <audio class="audio-control" controls>
-                  <source src="/Musik/POP.mp3" type="audio/mpeg; codecs=vorbis">
-                </audio>
-                <p class="music_name text-left">Romantique</p>
-                <audio class="audio-control" controls>
-                  <source src="/Musik/Romantique.mp3" type="audio/mpeg; codecs=vorbis">
+                  <source src="/Musik/Vasotu-2.mp3" type="audio/mpeg">
                 </audio>
               </div>
             </div>
           </div>          
         </div>
-      </div> 
-    </div>  
+      </div>
+  </div><div class="content-section px-3 px-md-5">
+    <div id="works" class="row">
+      <div class="col-md-6 col-12 mb-4 mb-md-0">
+        <div class="card hoverable-card-2 py-4">
+          <div class="card-body text-center flex-card">
+            <div class="flex-content">
+              <h4 class="card-title">Music for theater</h4>
+              <img src="/Images/theater_misic.png" class="card-img-top" alt="Olga-Jankovic">
+              <p class="music_name text-left">Harms- Puškin i Gogolj - Intro</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/UVODNAMUZIKA.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">Harms- Puškin i Gogolj - Outro</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/ODJAVNAMUZIKA.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">D-part</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/D-FULL.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">H-part</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/H-FULL.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">S-part</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/S-FULL.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+        </div>          
+      </div>
+      <div class="col-md-6 col-12 mb-4 mb-md-0">
+        <div class="card hoverable-card-2 py-4">
+          <div class="card-body text-center flex-card">
+            <div class="">
+              <h4 class="card-title">Music for video</h4>
+              <img src="/Images/video_misic.png" class="card-img-top" alt="Olga-Jankovic">
+              <p class="music_name text-left">Get excited</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/GET-EXCITED.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">Guitar mind</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/Guitar-Mind.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">Jazzzz</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/JAZZZZ.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">Pop</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/POP.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">Romantique</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/Romantique.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+        </div>          
+      </div>
+    </div> 
+  </div>
+  </div>
     <div id="events" class="block events-block text-center py-4">
         <p class="events-header">Koncerti i festivali</p>
           <img src="/Images/krug.svg" class="img-events" alt="Olga-Jankovic">
@@ -412,13 +414,13 @@
           </div>
         </div>
       </div>
-    </div>  
     </div>
   </body>
       
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>  
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script src="/scripts/main.js"></script>      
+  <script src="/scripts/main.js"></script>    
 </body>
 </html>
