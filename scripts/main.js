@@ -25,4 +25,6 @@ $(document).ready(function() {
     $(this).hide()
     $(unhoverId).show()
   })
+
+  $('.tabs').tabs()
 });
