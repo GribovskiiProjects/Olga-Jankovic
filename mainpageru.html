@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Styles/overrides.css">
+    <link rel="stylesheet" href="/Styles/overrides.css" />
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
     <link href = "https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,100; 0,200; 0,300; 0,400; 0,500; 1,100 & display = swap "rel =" stylesheet ">
     <title>Olga Jankovic</title>
@@ -18,17 +18,17 @@
   </head>
   <body>
     <div class="header-image ">
-      <nav class="navbar-language navbar-expand-lg navbar-dark">
+    <nav class="navbar-language navbar-expand-lg navbar-dark">
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav">
             <li class="nav-item-left">
-              <a class="nav-link" href="/index.html">srb</a>
+              <a class="nav-link"  href="/mainpagesrb.html">srb</a>
             </li>
             <li class="nav-item-left">
-              <a class="nav-link" href="/mainpageeng.html">eng</a>
+              <a class="nav-link" href="index.html">eng</a>
             </li>
             <li class="nav-item-left active">
-              <a class="nav-link" href="#">ru<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/mainpageru.html">ru <span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
@@ -50,10 +50,17 @@
         </div>
       </nav>
       <div>
+        <div class="block btn-block mt-xs-0">
+          <div class="py-4 text-center">
+            <a href="mailto: olga.jankovic.composer@gmail.com" class="envelope">
+              <img src="/Images/email1.svg" alt="Olga-Jankovic">
+            </a> 
+          </div>
+        </div>
         <div class="description-text">
           <div class="text-center">
-            <a id="bio-link" href="#" class="unhover-link" unhover-id="#bio">Обо мне</a>
-          </div>>
+            <a id="bio-link" href="#" class="unhover-link" unhover-id="#bio">BIO</a>
+          </div>
           <h6 id="bio" class="hidden" style="color:white;">
             Ольга Янкович родилась в России, в сибирском городе Бодайбо. Закончила музыкальную школу в Иркутске, музыкальный колледж в городе Подгорица(Черногория). 
             В 2020 году успешно закончила факультет Композиции в государственной консерватории город Белград(FMU) под руководством Др.Проф.Светланы Савич.
@@ -63,23 +70,24 @@
             мультимедиа(и т.п.) проектами("Пентхаус: Обычный человек").
           </h6>
         </div>
-        <div class="block btn-block">
-          <div class="py-4 text-center">
-            <a class="btn btn-white" href="mailto: olga.jankovic.composer@gmail.com">Связаться со мной</a>
-          </div>
-        </div>
       </div>
      </div>
+    <div id="works"></div>
+    <div class="tab">
+      <a class="tablink active" tab="contemporary">Contemporary</a>
+      <a class="tablink" tab="cinematic">Cinematic</a>
+    </div>
+    <div id="contemporary" class="tabcontent active">
      <div class="content-section px-3 px-md-5">
-      <div id="works" class="row">
-        <div class="col-md-4 col-12 mb-4 mb-md-0">
-          <div class="card hoverable-card py-4" href="">
+      <div class="row mb-4">
+        <div class="col-md-4 col-12 hoverable-card-container">
+          <div class="card hoverable-card py-4">
             <div class="card-body text-center flex-card">
               <div class="flex-content">
                 <h4 class="card-title">Le couple</h4>
                 <img src="/Images/Le-couple.jpg" class="card-img-top" alt="Olga-Jankovic">
                 <audio class="audio-control" style="margin-top: 2em;" controls>
-                  <source src="/Musik/couple.mp3" type="audio/ogg; codecs=vorbis">
+                  <source src="/Musik/couple.mp3" type="audio/mpeg">
                 </audio>
                 <p class="card-description">"Пара"- композиция для мультимедиа перформанса "Пентхаус: Обычный человек", для фортепианного трио и сопрано, 2018 год</p>
               </div>
@@ -89,14 +97,14 @@
             </div>
           </div>          
         </div>
-        <div class="col-md-4 col-12 mb-4 mb-md-0">
-          <div class="card hoverable-card py-4" href="">
+        <div class="col-md-4 col-12 hoverable-card-container">
+          <div class="card hoverable-card py-4">
             <div class="card-body text-center flex-card">
               <div class="flex-content">
                 <h4 class="card-title">Krosna</h4>
                 <img src="/Images/Krosna.jpg" class="card-img-top" alt="Olga-Jankovic">
                 <audio class="audio-control" style="margin-top: 2em;" controls>
-                  <source src="/Musik/krosna.mp3" type="audio/ogg; codecs=vorbis">
+                  <source src="/Musik/krosna.mp3" type="audio/mpeg">
                 </audio>
                 <p class="card-description">Кросна- композиция для камерного ансамбля. 2020 год. (электронная версия)</p>
               </div>
@@ -105,14 +113,15 @@
               </div>
             </div>
           </div>          
-        </div><div class="col-md-4 col-12 mb-4 mb-md-0">
-          <div class="card hoverable-card py-4" href="">
+        </div>
+        <div class="col-md-4 col-12 hoverable-card-container">
+          <div class="card hoverable-card py-4">
             <div class="card-body text-center flex-card">
               <div class="flex-content">
                 <h4 class="card-title">Weightlessness</h4>
                 <img src="/Images/nevesomost.jpg" class="card-img-top" alt="Olga-Jankovic">
                 <audio class="audio-control" style="margin-top: 2em;" controls>
-                  <source src="/Musik/weightlessness.mp3" type="audio/ogg; codecs=vorbis">
+                  <source src="/Musik/weightlessness.mp3" type="audio/mpeg">
                 </audio>
                 <p class="card-description">"Невесомость" - композиция для фортепианного трио, 2018 год</p>
               </div>
@@ -121,14 +130,15 @@
               </div>
             </div>
           </div>          
-        </div><div class="col-md-4 col-12 mb-4 mb-md-0">
-          <div class="card hoverable-card py-4" href="">
+        </div>
+        <div class="col-md-4 col-12 hoverable-card-container">
+          <div class="card hoverable-card py-4">
             <div class="card-body text-center flex-card">
               <div class="flex-content">
                 <h4 class="card-title">Motus animi continuus</h4>
                 <img src="/Images/Motus-Animi.jpeg" class="card-img-top" alt="Olga-Jankovic">
                 <audio class="audio-control" style="margin-top: 2em;" controls>
-                  <source src="/Musik/motus.mp3" type="audio/ogg; codecs=vorbis">
+                  <source src="/Musik/motus.mp3" type="audio/mpeg">
                 </audio>
                 <p class="card-description">Вариации для двух фортепиано и ударных, 2019 год</p>
               </div>
@@ -137,14 +147,14 @@
               </div>
             </div>
           </div>          
-        </div><div class="col-md-4 col-12 mb-4 mb-md-0">
-          <div class="card hoverable-card py-4" href="">
+        </div><div class="col-md-4 col-12 hoverable-card-container">
+          <div class="card hoverable-card py-4">
             <div class="card-body text-center flex-card">
               <div class="flex-content">
                 <h4 class="card-title">AMA</h4>
                 <img src="/Images/AMA2.jpg" class="card-img-top" alt="Olga-Jankovic">
                 <audio class="audio-control" style="margin-top: 2em;" controls>
-                  <source src="/Musik/ama.mp3" type="audio/ogg; codecs=vorbis">
+                  <source src="/Musik/ama.mp3" type="audio/mpeg">
                 </audio>
                 <p class="card-description">Композиция для фортепиано, вдохновленная одноименным фильмом Ж.Гатьер, 2018 год</p>
               </div>
@@ -153,14 +163,15 @@
               </div>
             </div>
           </div>          
-        </div><div class="col-md-4 col-12 mb-4 mb-md-0">
-          <div class="card hoverable-card py-4" href="">
+        </div>
+        <div class="col-md-4 col-12 hoverable-card-container">
+          <div class="card hoverable-card py-4">
             <div class="card-body text-center flex-card">
               <div class="flex-content">
                 <h4 class="card-title">Лѣсъ</h4>
                 <img src="/Images/Les.jpg" class="card-img-top" alt="Olga-Jankovic">
                 <audio class="audio-control" style="margin-top: 2em;" controls>
-                  <source src="/Musik/les.mp3" type="audio/ogg; codecs=vorbis">
+                  <source src="/Musik/les.mp3" type="audio/mpeg">
                 </audio>
                 <p class="card-description">"Лес" - композиция для голоса и электроники, 2019 год</p>
               </div>
@@ -172,8 +183,130 @@
         </div>
       </div>
     </div>
+  </div>
+  <div id="cinematic" class="tabcontent">
+    <div class="content-section px-3 px-md-5">
+      <div class="row">
+        <div class="col-md-6 col-12 mb-4 mb-md-0">
+          <div class="card hoverable-card-2 py-4">
+            <div class="card-body text-center flex-card">
+              <div class="flex-content">
+                <h4 class="card-title">Music for video games</h4>
+                <img src="/Images/game_music.png" class="card-img-top" alt="Olga-Jankovic">
+                <p class="music_name text-left">Candy crush</p>
+                <audio class="audio-control" controls>
+                  <source src="/Musik/Crush.mp3" type="audio/mpeg">
+                </audio>
+                <p class="music_name text-left">Become a hero</p>
+                <audio class="audio-control" controls>
+                  <source src="/Musik/HERO.mp3" type="audio/mpeg">
+                </audio>
+                <p class="music_name text-left">Atmosphere</p>
+                <audio class="audio-control" controls>
+                  <source src="/Musik/Atmosphere.mp3" type="audio/mpeg">
+                </audio>
+                <p class="music_name text-left">Beware</p>
+                <audio class="audio-control" controls>
+                  <source src="/Musik/BEWARE.mp3" type="audio/mpeg">
+                </audio>
+              </div>
+            </div>
+          </div>          
+        </div>
+        <div class="col-md-6 col-12 mb-4 mb-md-0">
+          <div class="card hoverable-card-2 py-4">
+            <div class="card-body text-center flex-card">
+              <div class="">
+                <h4 class="card-title">Film music</h4>
+                <img src="/Images/movie_music.png" class="card-img-top" alt="Olga-Jankovic">
+                <p class="music_name text-left">Mrtva trka</p>
+                <audio class="audio-control" controls>
+                  <source src="/Musik/MrtvaTrka.mp3" type="audio/mpeg">
+                </audio>
+                <p class="music_name text-left">Proleće u januaru</p>
+                <audio class="audio-control" controls>
+                  <source src="/Musik/Prolece-ending.mp3" type="audio/mpeg">
+                </audio>
+                <p class="music_name text-left">Za Vasotu-Main theme</p>
+                <audio class="audio-control" controls>
+                  <source src="/Musik/Za_Vasotu.mp3" type="audio/mpeg">
+                </audio>
+                <p class="music_name text-left">Za Vasotu-Сar scene</p>
+                <audio class="audio-control" controls>
+                  <source src="/Musik/Vasotu-2.mp3" type="audio/mpeg">
+                </audio>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+  </div><div class="content-section px-3 px-md-5">
+    <div id="works" class="row">
+      <div class="col-md-6 col-12 mb-4 mb-md-0">
+        <div class="card hoverable-card-2 py-4">
+          <div class="card-body text-center flex-card">
+            <div class="flex-content">
+              <h4 class="card-title">Music for theater</h4>
+              <img src="/Images/theater_misic.png" class="card-img-top" alt="Olga-Jankovic">
+              <p class="music_name text-left">Хармс-Пушкин и Гоголь - Intro</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/UVODNAMUZIKA.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">Хармс-Пушкин и Гоголь - Outro</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/ODJAVNAMUZIKA.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">D-part</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/D-FULL.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">H-part</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/H-FULL.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">S-part</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/S-FULL.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+        </div>          
+      </div>
+      <div class="col-md-6 col-12 mb-4 mb-md-0">
+        <div class="card hoverable-card-2 py-4">
+          <div class="card-body text-center flex-card">
+            <div class="">
+              <h4 class="card-title">Music for video</h4>
+              <img src="/Images/video_misic.png" class="card-img-top" alt="Olga-Jankovic">
+              <p class="music_name text-left">Get excited</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/GET-EXCITED.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">Guitar mind</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/Guitar-Mind.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">Jazzzz</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/JAZZZZ.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">Pop</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/POP.mp3" type="audio/mpeg">
+              </audio>
+              <p class="music_name text-left">Romantique</p>
+              <audio class="audio-control" controls>
+                <source src="/Musik/Romantique.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+        </div>          
+      </div>
+    </div> 
+  </div>
+  </div>
     <div id="events" class="block events-block text-center py-4">
-        <p class="events-header">Где можно послушать мою музыку</p>
+        <p class="events-header">Концерты и события</p>
           <img src="/Images/krug.svg" class="img-events" alt="Olga-Jankovic">
           <p class="events">На данный момент событий нет</p>
     </div>
@@ -234,6 +367,9 @@
       <a href="https://www.facebook.com/13.olga.br" class="social-media-link">
         <img src="/Images/facebook (1).svg" alt="Olga-Jankovic">
       </a>
+      <a href="https://soundcloud.app.goo.gl/bXAh9" class="social-media-link">
+        <img src="/Images/soundcloud.svg" alt="Olga-Jankovic">
+      </a>
     </div> 
     <div id="gallery-modal" class="modal" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -277,13 +413,13 @@
           </div>
         </div>
       </div>
-    </div>  
     </div>
   </body>
       
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>  
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script src="/scripts/main.js"></script>      
+  <script src="/scripts/main.js"></script>    
 </body>
 </html>
