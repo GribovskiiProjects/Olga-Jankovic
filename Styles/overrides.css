@@ -57,8 +57,14 @@
 }
 .btn-block{
     background-color: black;
-    margin-top: 38em;
+    margin-top: 10em;
 }
+
+@media (min-width: 576px) {
+    .btn-block {
+      margin-top: 38em;
+    }
+  }
 .hoverable-card {
     /* margin-top: 2em; */
     /* height: 100%; */
