@@ -59,11 +59,18 @@
     background-color: black;
     margin-top: 38em;
 }
-.hoverable-card{
-    margin-top: 2em;
-    height: 640px;   
+.hoverable-card {
+    /* margin-top: 2em; */
+    /* height: 100%; */
+    /* height: 640px;    */
+    height: 100%;
 }
-.hoverable-card-2{
+.hoverable-card-container {
+    padding-top: 2em;
+    /* padding-bottom: 1em; */
+}
+
+.hoverable-card-2 {
     margin-top: 2em;
 }
 .card-title{
@@ -169,26 +176,35 @@ audio {
     color: black;
 }
 .tab{
-    background-color: silver;
+  display: flex;
+  background-color: #201F1F;
 }
-.tablink1{
-    background-color: white;
-    border: none;
+
+.tab .tablink {
+    display: block;
+    cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    color: black;
+    color: #ffffff;
     font-size: x-large;
     padding: 1em;
+    background-color: #ffffff;
+    border: 1px solid #201F1F;
+    background-color: #201F1F;
+    text-decoration: none;    
 }
-.tablink2{
-    background-color: silver;
+
+.tab .tablink:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.tab .tablink.active {
     border: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    color: black;
-    font-size: x-large;
-    padding: 1em;
+    background-color: #ffffff;
+    color: #000000;
 }
+
 .music_name{
     margin-top: 2em;
     padding-left: 1em;
@@ -198,3 +214,10 @@ audio {
 
 }
 
+.tabcontent {
+  display: none;
+}
+
+.tabcontent.active {
+  display: block;
+}

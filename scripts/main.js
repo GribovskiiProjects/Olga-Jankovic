@@ -26,5 +26,13 @@ $(document).ready(function() {
     $(unhoverId).show()
   })
 
-  $('.tabs').tabs()
+  $('.tab .tablink').click(function () {
+    $(this).addClass('active')
+    $(this).siblings().removeClass('active')
+    
+    var tabContentId = $(this).attr('tab')
+    console.log(tabContentId)
+    $('.tabcontent').removeClass('active')
+    $('#' + tabContentId).addClass('active')
+  })
 });
